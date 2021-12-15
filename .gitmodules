@@ -1,9 +1,0 @@
-[submodule "themes/zdoc"]
-	path = themes/zdoc
-	url = https://github.com/zzossig/hugo-theme-zdoc.git
-[submodule "themes/blank"]
-	path = themes/blank
-	url = https://github.com/Vimux/blank.git
-[submodule "themes/hello-friend-ng"]
-	path = themes/hello-friend-ng
-	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
