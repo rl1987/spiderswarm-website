@@ -1,6 +1,6 @@
 baseURL = "https://gracious-kare-e44b98.netlify.app/"
 title = "Hugo Zdoc Theme"
-theme = "blank"
+theme = "zdoc"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
