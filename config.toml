@@ -1,5 +1,5 @@
 baseurl      = "localhost"
-title        = "My Blog"
+title        = "SpiderSwarm"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Scalable, cloud-native web scraping framework based on dataflow programming concepts"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -20,33 +20,28 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "Scalable, cloud-native web scraping framework based on dataflow programming concepts"
+  keywords = "web scraping, web crawling"
   images = [""]
-
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "SpiderSwarm"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
-      logoHomeLink = "/"
+      logoText = "spsw"
+      logoHomeLink = "https://github.com/spiderswarm/spiderswarm"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+  #[[menu.main]]
+  #  identifier = "blog"
+  #  name       = "Blog"
+  #  url        = "/posts"
